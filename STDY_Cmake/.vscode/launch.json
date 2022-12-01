@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "C/C++: clang++ アクティブ ファイルのビルドとデバッグ",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ アクティブなファイルのビルド"
+        },
+        {
+            "name": "Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/main",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "terminal": "integrated"
+        },
+        {
+            "name": "C/C++: cpp アクティブ ファイルのビルドとデバッグ",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: cpp アクティブなファイルのビルド"
+        }
+    ],
+    "version": "2.0.0"
+}
